@@ -112,7 +112,7 @@ gulp.task('docker-file:cross', ['clean-dist'], function() {
  * @param {function(?Error=)} doneFn
  */
 function spawnDockerProcess(args, doneFn) {
-  let dockerTask = child.spawn('docker', args, {stdio: 'inherit'});
+    let dockerTask = child.spawn('docker', args, {stdio: 'inherit'});
 
   // Call Gulp callback on task exit. This has to be done to make Gulp dependency management
   // work.
