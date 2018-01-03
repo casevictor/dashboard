@@ -8,6 +8,7 @@ import {
 } from '@angular/material';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {HttpClientModule} from "@angular/common/http";
+import {PipesModule} from "../common/pipes/module";
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {HttpClientModule} from "@angular/common/http";
     MatProgressSpinnerModule,
     FlexLayoutModule,
     HttpClientModule,
+    PipesModule
   ],
   providers: [MatIconRegistry],
   bootstrap: [ChromeComponent]
