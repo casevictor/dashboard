@@ -114,7 +114,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-dashboard
-        image: magueio/mangueio:latest
+        image: index.docker.io/magueio/mangueio:latest
         ports:
         - containerPort: 8443
           protocol: TCP
